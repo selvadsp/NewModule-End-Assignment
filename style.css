@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(142,210,200,0.5270483193277311) 0%, rgba(0,212,255,1) 100%);
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #7174a3;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.list-group-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* task-form section*/
+
+#task-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52, 119, 141, 0.026) 0%, rgb(7, 75, 88) 100%);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.task {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 3px;
+    grid-row-gap: px;
+    }
+    .device{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 3px;
+    grid-row-gap: px;
+    }
+    .img{
+        width: 300px;
+    }
+    /* footer section */
+    footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+        color: #666;
+      }
+      
+      .social-link {
+        margin: 0 10px;
+        color: #337ab7;
+        transition: color 0.2s ease;
+      }
+      
+      .social-link:hover {
+        color: #23527c;
+      }
+      
+      .bi {
+        font-size: 24px;
+        vertical-align: middle;
+      }
